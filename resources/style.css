@@ -1,0 +1,268 @@
+body {
+	background: #999999;
+	padding: 0px; 
+	margin: 0px;
+}
+a img {
+	border:none;
+}
+.description {
+	
+}
+#pageMiddle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: #FFF;
+	color: #000;
+	position: relative;
+	height: auto;
+	top: 0px;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+}
+#header {
+	width: 100%;
+	color: #FFF;
+	background-color: #000;
+	height: 75px;
+}
+#logo {
+	float: left;
+	font-size: 36px;
+	color: #FFF;
+	position: relative;
+	margin-top: 15px;
+	margin-left: 5px;
+	width: 250px;
+}
+#navHolder {
+	color: #FFF;
+	background-color: #000;
+	float: right;
+	height: 20px;
+	width: 600px;
+	margin-top: 50px;
+	text-align: right;
+}
+.buttonLeft {
+	float: left;
+	width: 7px;
+	height: 20px;
+	background-image: url(images/leftNav.jpg);
+	background-repeat: no-repeat;
+}
+
+.buttonBg {
+	float: left;
+	height: 20px;
+	background-image: url(images/middleBg.jpg);
+	background-repeat: repeat-x;
+	color: #fff;
+	text-transform: uppercase;
+	vertical-align: middle;
+	padding-top: 3px;
+}
+
+.buttonRight {
+	float: left;
+	width: 7px;
+	height: 20px;
+	background-image: url(images/rightNav.jpg);
+	background-repeat: no-repeat;
+}
+.navTab {
+	float: right; 
+	height: 20px; 
+	z-index: 100!important; 
+	cursor: pointer}
+
+#footer {
+	float: left;
+	color: #FFF;
+	background-color: #000;
+	height: 120px;
+	width: 100%;
+}
+.footerContent {
+	float: left;
+	color: #FFF;
+	width: 150px;
+	margin-top: 5px;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+#footerCenter {
+	border-left: thin solid #FFF;
+	border-right: thin solid #FFF;
+}
+#centerContent {
+	width: 100%;
+	min-height: 900px;
+	height: 100% !important;
+	padding: 5px;
+}
+#centerPictureContent {
+	float: none;
+	width: 100%;
+	min-height: 900px;
+	height: 100% !important;
+	padding: 5px;
+}
+.thumbnailOuter {
+	float: left;
+	color: #000;
+	margin-top: 30px;
+	padding-right: 70px;
+	padding-bottom: 35px;
+	padding-left: 60px;
+	width: 330px;
+	overflow: hidden;
+}
+.thumbnailImage {
+	height: 180px;
+	width: 320px;
+	border: thick solid #000;
+}
+.thumbnailText {
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	height: 20px;
+	width: 330px;
+	text-transform: uppercase;
+}
+.imageOuter {
+	float: none;
+	color: #000;
+	margin-top: 10px;
+	padding-right: 13px;
+	padding-bottom: 40px;
+	padding-left: 13px;
+	width: 910px;
+	overflow: hidden;
+}
+.imageImage {
+	float: left;
+	width: 900px;
+	border: thick solid #000;
+}
+.imageText {
+	float: left;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	height: 20px;
+	width: 900px;
+	text-transform: uppercase;
+}
+.whiteLink {
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+}
+.blackLink {
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+.blackLink username {
+	font-weight: bolder;
+}
+.footerLarge {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.headerText {
+	font-size: 20px;
+	font-style: italic;
+	color: #CCC;
+	width: 550px;
+	z-index:auto;
+	float: left;
+}
+.headertext hover {
+	text-decoration: underline;
+}
+#controlHolder {
+	float: right;
+	height: 20px;
+	font-size: 12px;
+	
+}
+#fileWrapper {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+#files {
+	font-size: 12px;
+}
+#file {
+	padding: 1px; 
+}
+input
+{
+	color: #000;
+	background: #ccc;
+	border: 1px solid #000;
+}
+.submit input
+{
+	color: #fff;
+	background: #ccc;
+	border: 2px outset #000;
+	margin-left: 4.5em;
+}
+<!--
+#LoginForm {
+	float:left; 
+	width: 400px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-color: #fff;
+	margin-top: 25px;
+	border: thick solid #000;
+}
+.detailsHolder {
+	float: left;
+}
+#loginCaption {
+	float: left;
+	width: 380px;
+	margin-left: auto;
+	margin-right:auto;
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.loginEmail {
+	width: 130px;
+	float: left;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.loginField {
+	float: left;
+	width: 230px;
+	padding: 10px;
+}
+#loginSubmit {
+	float: left;
+	width: 400px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+-->
